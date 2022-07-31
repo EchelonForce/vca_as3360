@@ -421,8 +421,8 @@
     (uuid e73a7273-52c3-4e41-b0d7-41af32c786f7)
   )
 
-  (no_connect (at 148.082 114.3) (uuid af8b75e3-e472-4cb3-9cfe-c040be1863d3))
-  (no_connect (at 148.59 83.82) (uuid af8b75e3-e472-4cb3-9cfe-c040be1863d3))
+  (no_connect (at 147.32 114.3) (uuid af8b75e3-e472-4cb3-9cfe-c040be1863d3))
+  (no_connect (at 148.59 83.82) (uuid af8b75e3-e472-4cb3-9cfe-c040be1863d4))
 
   (wire (pts (xy 185.42 95.885) (xy 187.96 95.885))
     (stroke (width 0) (type default) (color 0 0 0 0))
