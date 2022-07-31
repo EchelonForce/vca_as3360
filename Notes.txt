@@ -1,0 +1,7 @@
+Useful reference
+https://www.lookmumnocomputer.com/1181-dual-vca
+http://www.alfarzpp.lv/eng/sc/AS3360.pdf
+
+
+
+May need to swap for smd tl072's
