@@ -6,6 +6,9 @@
 
   (paper "A4")
   (title_block
+    (title "VCA_AS3360")
+    (date "2022-08-10")
+    (rev "1.0")
     (company "RobotDialogs")
   )
 
