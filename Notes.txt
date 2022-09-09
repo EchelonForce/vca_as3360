@@ -3,5 +3,19 @@ https://www.lookmumnocomputer.com/1181-dual-vca
 http://www.alfarzpp.lv/eng/sc/AS3360.pdf
 
 
+v1 testing
+First build: 
+CV a little off:
+  pots seem to exercise full range but a lot of the pot range is wasted?
+  CV 0-5V instead of 0-10V?
+  measured at the pin on the as3360, the CV 0-10 goes 0-2V as designed, but the data sheet has max gain listed at 1.7-1.8V, so 2V is a bit too high. Need to adjust dividers into U3 because the non-inverting buffer has gain of 2 I didn't account for...I think I want about 1.6V at the AS3360 so I'll shoot for 0.8V at the input of U3, so 390k/33k...looks good.
+
+
+
+v1 to v2 changes
+used 33k instead of 50k
+used 390k instead of 400k
+U3 is label tl074 but it should be lm358, swapped with U1 which is also wrong.
+
 
 May need to swap for smd tl072's
